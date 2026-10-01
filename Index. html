@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>हिंदी ज्ञान केंद्र | महत्वपूर्ण प्रश्न उत्तर</title>
+
+  <meta name="description"
+    content="हिंदी ज्ञान केंद्र पर कक्षा 0 से 12 तक हिंदी के महत्वपूर्ण प्रश्न और उत्तर पढ़ें।">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    header {
+      background: #673ab7;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .search {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .classes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 12px;
+      margin: 20px 0;
+    }
+
+    .class-btn {
+      padding: 13px;
+      background: white;
+      border: 2px solid #673ab7;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .class-btn:hover {
+      background: #673ab7;
+      color: white;
+    }
+
+    .question {
+      background: white;
+      padding: 18px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .question h3 {
+      margin-top: 0;
+      color: #673ab7;
+    }
+
+    .answer {
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+      background: #222;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 24px;
+      }
+
+      .container {
+        padding: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>हिंदी ज्ञान केंद्र</h1>
+    <p>कक्षा 0 से 12 तक हिंदी के महत्वपूर्ण प्रश्न और उत्तर</p>
+  </header>
+
+  <main class="container">
+
+    <input
+      type="text"
+      id="search"
+      class="search"
+      placeholder="प्रश्न खोजें..."
+      onkeyup="searchQuestions()"
+    >
+
+    <h2>कक्षा चुनें</h2>
+
+    <div class="classes">
+      <div class="class-btn">कक्षा 0</div>
+      <div class="class-btn">कक्षा 1</div>
+      <div class="class-btn">कक्षा 2</div>
+      <div class="class-btn">कक्षा 3</div>
+      <div class="class-btn">कक्षा 4</div>
+      <div class="class-btn">कक्षा 5</div>
+      <div class="class-btn">कक्षा 6</div>
+      <div class="class-btn">कक्षा 7</div>
+      <div class="class-btn">कक्षा 8</div>
+      <div class="class-btn">कक्षा 9</div>
+      <div class="class-btn">कक्षा 10</div>
+      <div class="class-btn">कक्षा 11</div>
+      <div class="class-btn">कक्षा 12</div>
+    </div>
+
+    <section id="questions">
+
+      <div class="question">
+        <h3>प्रश्न: हिंदी भाषा क्या है?</h3>
+        <div class="answer">
+          हिंदी भारत में बोली और समझी जाने वाली प्रमुख भाषाओं में से एक है।
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>प्रश्न: संज्ञा किसे कहते हैं?</h3>
+        <div class="answer">
+          किसी व्यक्ति, वस्तु, स्थान, प्राणी या भाव के नाम को संज्ञा कहते हैं।
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>प्रश्न: सर्वनाम किसे कहते हैं?</h3>
+        <div class="answer">
+          जो शब्द संज्ञा के स्थान पर प्रयोग किए जाते हैं, उन्हें सर्वनाम कहते हैं।
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>प्रश्न: विशेषण किसे कहते हैं?</h3>
+        <div class="answer">
+          जो शब्द संज्ञा या सर्वनाम की विशेषता बताते हैं, उन्हें विशेषण कहते हैं।
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>प्रश्न: क्रिया किसे कहते हैं?</h3>
+        <div class="answer">
+          जिस शब्द से किसी कार्य के करने या होने का बोध हो, उसे क्रिया कहते हैं।
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 हिंदी ज्ञान केंद्र
+  </footer>
+
+  <script>
+    function searchQuestions() {
+      const input = document.getElementById("search");
+      const filter = input.value.toLowerCase();
+      const questions = document.querySelectorAll(".question");
+
+      questions.forEach(function(question) {
+        const text = question.innerText.toLowerCase();
+
+        if (text.includes(filter)) {
+          question.style.display = "block";
+        } else {
+          question.style.display = "none";
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
